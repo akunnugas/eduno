@@ -3,7 +3,7 @@
     "builds": [
         {
             "src": "api/index.php",
-            "use": "vercel-php@0.8.0" 
+            "use": "vercel-php@0.8.0"
         },
         {
             "src": "public/**",
@@ -22,10 +22,6 @@
         {
             "src": "/build/(.*)",
             "dest": "/public/build/$1"
-        },
-        {
-            "src": "/livewire/(.*)",
-            "dest": "/public/livewire/$1"
         },
         {
             "src": "/(.*)",
